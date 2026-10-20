@@ -4,7 +4,7 @@ $b = 5;
 $c = 10;
 $max = null;
 
-if (!(is_int($a)) || !(is_int($b)) || !(is_int($c))) {
+if (!(is_numeric($a)) || !(is_numeric($b)) || !(is_numeric($c))) {
 
     echo "Les nombres A, B et C doivent  être des nombres réels";
 

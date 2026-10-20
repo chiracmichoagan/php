@@ -18,7 +18,7 @@ if (!(is_int($a)) || !(is_int($b)) || !(is_int($c))) {
 
         $max = $b;
 
-    } elseif ($c > $max) {
+    } else if ($c > $max) {
 
         $max = $c;
 
